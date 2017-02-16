@@ -12,8 +12,8 @@ if len(sys.argv) != 2:
 name = sys.argv[1]
 
 # path
-in_path = '/net/lxstor/export/infra/sysadmin/snsakala/drupal-perf-har/har/%s.har' % name
-out_path = '/net/lxstor/export/infra/sysadmin/snsakala/drupal-perf-har/tsung/partial/%s.xml' % name
+in_path = '/net/lxstor/export/infra/sysadmin/snsakala/drupal-perf-har/har_2/%s.har' % name
+out_path = '/net/lxstor/export/infra/sysadmin/snsakala/drupal-perf-har/tsung_2/partial/%s.xml' % name
 
 # load json file
 with open(in_path, 'r') as f:
